@@ -1,0 +1,384 @@
+body
+{
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+.ul-nav li{
+    display: inline;
+    padding: 10px;   
+}
+.ul-nav
+{
+    margin-top: 50px;
+    position: absolute;
+    right: 150px;
+}
+.imgSecure-nav
+{
+    position: absolute;
+    left: 150px;
+    width: 150px;
+    top: 30px;
+}
+.nav-header
+{
+    margin-top: 15px;
+    background-color: white;
+    
+}
+.ul-nav a{
+    text-decoration: none;
+}
+.div-connexion-orag
+{
+    background-color: #ee752c;
+    width: 95%;
+    height: 120px;
+    position:absolute;
+    top: 150px;
+    text-align: center;
+    left: 35px; 
+    padding-top: 25px;
+   
+}
+.conn-sapn
+{
+   color: white;
+}
+.div-bleu
+{
+    background-color: #034f89;
+    width: 95%;
+    height: 600px;
+    position:absolute;
+    top: 270px;
+    
+    left: 35px;  
+}
+.div-img-developer
+{
+    width: 40%;
+    position: absolute;
+    right: 10px;
+    top: 100px;
+}
+.img-developer
+{
+    width: 40%;
+}
+.div-form
+{
+    background-color: white;
+    width: 40%;
+    margin-left: 50px;
+    position: absolute;
+    top: -70px;
+    height: 600px;
+}
+.div-form span
+{
+    display: block;
+    text-align: center;
+}
+.span-bienvenue
+{
+    margin-bottom: 30px;
+    margin-top: 15px;
+    color: blue;
+}
+.form-input
+{
+    display: block;
+    margin: 30px;
+    width: 50%;
+    height: 30px;
+}
+.form-label
+{
+    margin: 30px;
+}
+#lienPassOublie
+{
+    margin: 30px;
+    color: blue;
+    text-decoration: none;
+}
+#inputCheckbox
+{
+    margin: 15px;
+}
+#lienPassOublie
+{
+    margin-left: 15px;
+    color: blue;
+}
+#mediaSociaux
+{
+    position: absolute;
+    right: 40%;
+    top: 82%;
+   
+}
+#btnConnexion
+{
+    background-color:#3b8ed4;
+    position: absolute;
+    right: 10px;
+    width: 25%;
+    height: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 1px;
+}
+#lienInscription
+{
+    position: absolute;
+    bottom:20px;
+    margin-left: 70px;
+}
+.facebook
+{
+    width: 60px;
+    
+}
+.twitter
+{
+    width: 40px;
+}
+.google
+{
+    width: 37px;;
+}
+#divmedia
+{
+    position: absolute;
+    bottom: 7%;
+    left: 35%;
+}
+/*
+@media screen and (max-width: 500px){
+    body{
+        background-color: red;
+    }
+    .ul-nav li{
+        display: block;
+        padding: 2px;
+        color: red;    
+    }
+    .imgSecure-nav
+    {
+        position: absolute;
+        left: 10px;
+   
+    }
+    .ul-nav
+    {
+        margin-top: 30px;
+        position: absolute;
+        right: 10px;
+        
+    }
+    .nav-header
+    {
+        margin-top: 40px;
+        background-color: white;
+        
+    }
+    #mediaSociaux
+    {
+        position: absolute;
+        left: 200px;
+        top: 78%;
+    
+    }
+    #divmedia
+    {
+        position: absolute;
+        bottom: 60px;
+        left: 45%;
+    }
+    .round{
+        margin: 2px 5px;
+        display: block;
+        padding: 0.6rem;
+        border: 2px solid blue;
+        border-radius: 50%;
+    }
+    #rd1{
+        
+        background-color: blue;
+    }
+    .ul-pres li
+    {
+        display: block;
+        
+    }
+}
+*/
+
+@media screen and (max-width: 950px){
+    
+    .ul-nav li{
+        display: block;
+        padding: 2px;
+          
+    }
+    .imgSecure-nav
+    {
+   
+        left: 10px;
+   
+    }
+    .ul-nav
+    {
+        margin-top: 20px;
+        position: absolute;
+        right: 30px;
+    }
+    .div-form
+    {
+        background-color: white;
+        width: 80%;
+        margin-left: 20px;
+        position: absolute;
+    }
+    .form-input
+    {
+        display: block;
+        margin: 20px;
+        width: 80%;
+        height: 30px;
+    }
+    .div-img-developer
+    {
+        width: 40%;
+        position: absolute;
+        right: 100px;
+        top: -100px;
+    }
+    #divmedia
+    {
+        position: absolute;
+        bottom: 60px;
+        left: 50px;
+    }
+    #mediaSociaux
+    {
+        position: absolute;
+        left:  60px;
+        width: 50%;
+        top: 78%;
+    
+    }
+    #lienInscription
+    {
+        position: absolute;
+        bottom:20px;
+        margin-left: 15px;
+    }
+    .round{
+        margin: 2px 5px;
+        display: block;
+        padding: 0.6rem;
+        border: 2px solid blue;
+        border-radius: 50%;
+    }
+    
+    /**Pour remplir le premier numéro par la couleur demandée*/
+    #rd1{
+        
+        background-color: blue;
+    }
+    .ul-pres li
+    {
+        display: block;
+        
+    }
+    .ul-pres
+    {
+        padding-top: 25px;
+    }
+}
+
+/**Pour encercler les numéros des listes*/
+.round{
+    margin: 2px 5px;
+    display: inline;
+    padding: 0.6rem;
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+
+/**Pour remplir le premier numéro par la couleur demandée*/
+#rd1{
+    
+    background-color: blue;
+}
+.ul-pres li
+{
+    display: inline;
+    
+}
+.ul-pres
+{
+    padding-top: 25px;
+}
+.div-prem
+{
+    position: absolute;
+    top: 250px;
+    margin-left: 170px;
+    background-color: whitesmoke;
+    height: 100px;
+    width: 80%;
+}
+.ligne-hor
+{
+    height: 4px;
+    background-color: #ee752c;
+   position: relative;
+   top: 450px;
+   width: 25%;   
+}
+h2{
+    position: relative;
+    top: 500px;
+    left: 45%;
+    color: blue;
+}
+.div-quest
+{
+    position: absolute;
+    top: 700px;
+    margin-left: 170px;
+    background-color: #ee752c;
+    height: 180px;
+    width: 80%;
+    border: 2px;
+    border-radius: 3%;
+    display: flex;
+}
+p{
+    text-align: center;
+    position: relative;
+    top: 520px;
+}
+.div-radio
+{
+    width: 100%;
+}
+.label-quest span
+{
+    color: white;
+    text-align: center;
+}
+.label-quest 
+{
+    align-items: center;
+}
+.label-quest input
+{
+    margin-top: 30px;
+    margin-left: 100px;
+}
